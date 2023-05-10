@@ -1,0 +1,86 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: url("background.jpg");
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+#logo{
+    width: 40px ;
+    opacity:40%
+}
+
+
+.login_div
+{
+    margin:10%;
+	background: rgba(255,255,255,0.95);
+    float: none;border-radius: 15px;
+    padding: 20px;  
+}
+.container
+{
+    text-align: center;
+    width: 800px;
+    height: 900px;
+}
+h1{
+    font-family:cursive;
+}
+#login_title{
+    font-family:cursive;
+}
+.guessField
+{
+    font-family:fantasy;
+}
+#login_btn
+{
+    background-image: linear-gradient(to right top, red, orange, orange, yellow);
+    width: 110px;
+    height: 35px;
+    font-size: 21px;
+    font-family:monospace;
+    border-radius:5px;
+}
+#login_btn:hover{
+    border-radius: 15px;
+    background-image: linear-gradient(to right top, blue, blue, deepskyblue, darkturquoise);
+    color:white;
+}
+#sub_btn
+{
+    background-image: linear-gradient(to right top, red, orange, orange, yellow);
+    width: 110px;
+    height: 35px;
+    font-size: 21px;
+    font-family:monospace;
+    border-radius:10px;
+}
+#sub_btn:hover
+{
+    border-radius: 15px;
+    background-image: linear-gradient(to right top, yellow, greenyellow, mediumspringgreen, deepskyblue);
+    color:rgb(59, 58, 58);
+}
+#Pa_Btn{
+    background-image: linear-gradient(to right top, blue, deepskyblue, deepskyblue, darkturquoise, turquoise, turquoise);
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    font-family:monospace;
+    border-radius:10px;
+}
+#Pa_Btn:hover{
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, darkgreen, lightgreen,mediumspringgreen,yellowgreen, lightgreen);
+    color:black;
+    
+    
+}
